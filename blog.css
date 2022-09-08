@@ -1,0 +1,162 @@
+:root {
+    --primary-color: #ec5241;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1b1d1c;
+}
+
+.nav-bar {
+    width: 85%;
+    margin: 1.5rem auto 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+nav span,
+.span,
+.name {
+    color: var(--primary-color);
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: var(--primary-color);
+    transition: all 0.2s ease;
+}
+
+nav button,
+.blogs button {
+    border: none;
+    background: var(--primary-color);
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+nav button:hover,
+.blogs button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.blogs {
+    width: 85%;
+    height: auto;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.blog-items {
+    width: 80%;
+    margin: 40px auto;
+    text-align: justify;
+    border: 2px solid rgb(109, 109, 224);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.blog-items h2 {
+    margin-top: 20px;
+}
+
+.blog-items .blog-items-date {
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.blog-items .blog-items-body {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: large;
+}
+
+.blog-items a {
+    text-decoration: none;
+}
+
+.blog-items a button {
+    display: block;
+    width: 20%;
+    margin: auto;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+}
+
+.footer {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+    background-color: white;
+}
+
+.footer .footer-header {
+    font-size: x-large;
+    padding-bottom: 40px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+
+.footer ul li a img {
+    padding: 10px auto;
+    width: 50px;
+    height: auto;
+    text-decoration: none;
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.footer ul li a img:hover {
+    transform: scale(1.2);
+    background-color: var(--primary-color);
+}
