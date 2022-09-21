@@ -82,7 +82,7 @@ h1{
 .cards{
     color: white;
     width: 400px;
-    height:500px;
+    height:580px;
     margin: 40px 20px;
     border-radius: 15px;
     border: 10px solid transparent;
@@ -134,7 +134,7 @@ h1{
     background-image: url(./image/Mark14.png);
 }
 .card-body{
-    height: 150px;
+    height: 200px;
 }
 
 .card-body h2{
